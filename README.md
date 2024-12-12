@@ -30,6 +30,7 @@ How to Run
 
 Example
 Language 1: a^n b^n
+
 Input: aabbb
 Output:
 Starting simulation for input: 'aabbb'
