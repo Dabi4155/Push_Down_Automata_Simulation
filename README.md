@@ -28,30 +28,5 @@ How to Run
       
 5.Follow the prompts in the terminal to choose the language and enter the input string.
 
-Example
-Language 1: a^n b^n
-
-Input: aabbb
-Output:
-Starting simulation for input: 'aabbb'
-Current state: q0, Current stack: ['Z']
-Current state: q0, Current stack: ['A', 'Z']
-Current state: q0, Current stack: ['A', 'A', 'Z']
-Current state: q1, Current stack: ['A', 'Z']
-Current state: q1, Current stack: ['Z']
-Final state: q2, Final stack: ['Z']
-Input: aabbb, Accepted: True
-Language 2: a^n b^m c^n
-Input: aabbbcc
-Output:
-
-Starting simulation for input: 'aabbbcc'
-Current state: q0, Current stack: ['Z']
-Current state: q0, Current stack: ['A', 'Z']
-Current state: q0, Current stack: ['A', 'A', 'Z']
-Current state: q1, Current stack: ['A', 'Z']
-Current state: q1, Current stack: ['A', 'A', 'Z']
-Final state: q3, Final stack: ['Z']
-Input: aabbbcc, Accepted: True
 
 Feel free to open issues or create pull requests to improve the PDA simulator. Contributions are welcome!
