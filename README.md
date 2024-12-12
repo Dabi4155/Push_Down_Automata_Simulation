@@ -5,7 +5,7 @@ This repository contains a simulation of a Pushdown Automaton (PDA) for two diff
 Features
 1. PDA Simulation: Simulates the behavior of a PDA with stack operations based on transition rules.
 2. Two Languages: The simulator supports two languages:
-    - a**n b^n: Strings consisting of 'a's followed by an equal number of 'b's.
+    - a^n b^n: Strings consisting of 'a's followed by an equal number of 'b's.
     - - a^n b^m c^n: Strings consisting of 'a's followed by any number of 'b's and 'c's, where the number of 'a's is equal to the number of 'c's.
 3. Graphical Representation: Generates a graphical diagram of the PDA, showing the state transitions and stack operations.
 
